@@ -173,3 +173,809 @@ Processing by PostsController#index as */*
   [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" 
   Rendered posts/index.html.erb within layouts/application (1.6ms)
 Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 13:42:36 +0000
+Connecting to database specified by database.yml
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" [0m
+  Rendered posts/index.html.erb within layouts/application (7.6ms)
+Compiled articles.css  (11ms)  (pid 6408)
+Compiled posts.css  (10ms)  (pid 6408)
+Compiled scaffolds.css  (18ms)  (pid 6408)
+Compiled application.css  (56ms)  (pid 6408)
+Compiled jquery.js  (39ms)  (pid 6408)
+Compiled jquery_ujs.js  (0ms)  (pid 6408)
+Compiled articles.js  (114ms)  (pid 6408)
+Compiled posts.js  (0ms)  (pid 6408)
+Compiled application.js  (240ms)  (pid 6408)
+Completed 200 OK in 651ms (Views: 571.6ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 13:42:38 +0000
+Served asset /application.css - 200 OK (47ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 13:42:38 +0000
+Served asset /articles.css - 200 OK (1ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 13:42:38 +0000
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 13:42:38 +0000
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 13:42:38 +0000
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 13:42:38 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 13:42:38 +0000
+Served asset /articles.js - 200 OK (7ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 13:42:38 +0000
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 13:42:38 +0000
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:05:12 +0000
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT "posts".* FROM "posts" 
+  Rendered posts/index.html.erb within layouts/application (2.4ms)
+Compiled scaffolds.css  (21ms)  (pid 6408)
+Compiled application.css  (2ms)  (pid 6408)
+Completed 200 OK in 87ms (Views: 81.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:05:12 +0000
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:05:12 +0000
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:05:12 +0000
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:05:12 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:05:12 +0000
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:05:12 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:05:12 +0000
+Served asset /application.js - 304 Not Modified (95ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:05:12 +0000
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:05:12 +0000
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2013-03-05 14:07:17 +0000
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::StatementInvalid (Could not find table 'articles'):
+  app/controllers/articles_controller.rb:5:in `index'
+
+
+  Rendered /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.9ms)
+  Rendered /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.4ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20130305113234)
+Migrating to CreateArticles (20130305134156)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20130305113234)
+Migrating to CreateArticles (20130305134156)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (6.3ms)[0m  CREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "content" text, "art_date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130305134156')[0m
+  [1m[35m (21.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/articles" for 127.0.0.1 at 2013-03-05 14:08:40 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.haml within layouts/application (8.9ms)
+Compiled scaffolds.css  (16ms)  (pid 6408)
+Compiled application.css  (2ms)  (pid 6408)
+Completed 200 OK in 73ms (Views: 69.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:08:40 +0000
+Served asset /application.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:08:40 +0000
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:08:40 +0000
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:08:40 +0000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:08:40 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:08:40 +0000
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:08:40 +0000
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:08:40 +0000
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:08:40 +0000
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2013-03-05 14:11:28 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.haml within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 84ms
+
+ActionView::Template::Error ("grey" is not a color for `darken'
+  (in /home/bitnami/work/myapp/app/assets/stylesheets/scaffolds.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/scaffolds.css.scss:21
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___788855907_86107840'
+  app/controllers/articles_controller.rb:7:in `index'
+
+
+  Rendered /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2013-03-05 14:12:18 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (5.6ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.haml within layouts/application (0.8ms)
+Compiled scaffolds.css  (18ms)  (pid 6408)
+Compiled application.css  (2ms)  (pid 6408)
+Completed 200 OK in 59ms (Views: 52.2ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:12:18 +0000
+Served asset /application.css - 200 OK (36ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:12:18 +0000
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:12:18 +0000
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:12:18 +0000
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:12:18 +0000
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:12:18 +0000
+Served asset /scaffolds.css - 200 OK (55ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:12:18 +0000
+Served asset /articles.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:12:18 +0000
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:12:18 +0000
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2013-03-05 14:12:27 +0000
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.haml (56.3ms)
+  Rendered articles/new.html.haml within layouts/application (81.8ms)
+Completed 200 OK in 105ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:12:27 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2013-03-05 14:12:45 +0000
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rye2iv29AwLkL9X6bvst0IV/sxmksIMwx+hoW7NCk4o=", "article"=>{"title"=>"Fooo", "content"=>"fdsfsgdsgfdg ", "art_date"=>""}, "commit"=>"Save"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (102.6ms)[0m  [1mINSERT INTO "articles" ("art_date", "content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["art_date", nil], ["content", "fdsfsgdsgfdg "], ["created_at", Tue, 05 Mar 2013 14:12:45 UTC +00:00], ["title", "Fooo"], ["updated_at", Tue, 05 Mar 2013 14:12:45 UTC +00:00]]
+  [1m[35m (22.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 134ms (ActiveRecord: 124.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2013-03-05 14:12:45 +0000
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered articles/show.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 15ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:12:45 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2013-03-05 14:12:55 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:12:55 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:13:21 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 22ms (Views: 11.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:13:21 +0000
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:13:21 +0000
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:13:21 +0000
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:13:21 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:13:21 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:13:21 +0000
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:13:21 +0000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:13:21 +0000
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:13:21 +0000
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:20:35 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.haml within layouts/application (3.9ms)
+Compiled scaffolds.css  (16ms)  (pid 6408)
+Compiled application.css  (1ms)  (pid 6408)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:20:35 +0000
+Served asset /application.css - 304 Not Modified (99ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:20:35 +0000
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:20:35 +0000
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:20:35 +0000
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:20:35 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:20:35 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:20:35 +0000
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:20:35 +0000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:20:35 +0000
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:24:10 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.5ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.haml within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (wrong number of arguments (2 for 1) for `saturation'
+  (in /home/bitnami/work/myapp/app/assets/stylesheets/scaffolds.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Myapp</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/scaffolds.css.scss:29
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___788855907_86107840'
+  app/controllers/articles_controller.rb:7:in `index'
+
+
+  Rendered /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /opt/bitnami/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:25:00 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.haml within layouts/application (2.7ms)
+Compiled scaffolds.css  (15ms)  (pid 6408)
+Compiled application.css  (3ms)  (pid 6408)
+Completed 200 OK in 78ms (Views: 64.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:00 +0000
+Served asset /application.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:00 +0000
+Served asset /articles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:00 +0000
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:00 +0000
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:00 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:00 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:00 +0000
+Served asset /articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:00 +0000
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:00 +0000
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:25:42 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.haml within layouts/application (2.4ms)
+Compiled scaffolds.css  (18ms)  (pid 6408)
+Compiled application.css  (2ms)  (pid 6408)
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:42 +0000
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:43 +0000
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:43 +0000
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:43 +0000
+Served asset /articles.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:43 +0000
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:43 +0000
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:43 +0000
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:43 +0000
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:43 +0000
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:25:56 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.haml within layouts/application (3.1ms)
+Compiled scaffolds.css  (16ms)  (pid 6408)
+Compiled application.css  (1ms)  (pid 6408)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:56 +0000
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:56 +0000
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:56 +0000
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:56 +0000
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:56 +0000
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:25:56 +0000
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:56 +0000
+Served asset /articles.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:56 +0000
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:25:56 +0000
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:26:32 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.haml within layouts/application (1.9ms)
+Compiled scaffolds.css  (20ms)  (pid 6408)
+Compiled application.css  (1ms)  (pid 6408)
+Completed 200 OK in 55ms (Views: 51.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:26:32 +0000
+Served asset /application.css - 200 OK (42ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:26:32 +0000
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:26:32 +0000
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:26:32 +0000
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:26:32 +0000
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:26:32 +0000
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:26:32 +0000
+Served asset /articles.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:26:32 +0000
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:26:32 +0000
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:27:06 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.haml within layouts/application (2.3ms)
+Compiled scaffolds.css  (19ms)  (pid 6408)
+Compiled application.css  (1ms)  (pid 6408)
+Completed 200 OK in 54ms (Views: 51.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:27:06 +0000
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:27:06 +0000
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:27:06 +0000
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:27:06 +0000
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:27:06 +0000
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:27:06 +0000
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:27:07 +0000
+Served asset /articles.js - 200 OK (2ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:27:07 +0000
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:27:07 +0000
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:28:01 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.haml within layouts/application (2.0ms)
+Compiled scaffolds.css  (19ms)  (pid 6408)
+Compiled application.css  (1ms)  (pid 6408)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:28:02 +0000
+Served asset /application.css - 200 OK (36ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:28:02 +0000
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:28:02 +0000
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:28:02 +0000
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:28:02 +0000
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:28:02 +0000
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:28:02 +0000
+Served asset /articles.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:28:02 +0000
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:28:02 +0000
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:28:56 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.haml within layouts/application (2.7ms)
+Compiled scaffolds.css  (18ms)  (pid 6408)
+Compiled application.css  (3ms)  (pid 6408)
+Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:28:56 +0000
+Served asset /application.css - 200 OK (38ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:28:56 +0000
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:28:56 +0000
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:28:56 +0000
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:28:56 +0000
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:28:56 +0000
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:28:56 +0000
+Served asset /articles.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:28:56 +0000
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:28:56 +0000
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:29:36 +0000
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.haml within layouts/application (2.0ms)
+Compiled scaffolds.css  (20ms)  (pid 6408)
+Compiled application.css  (1ms)  (pid 6408)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:29:36 +0000
+Served asset /application.css - 200 OK (38ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:29:36 +0000
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:29:36 +0000
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:29:36 +0000
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:29:36 +0000
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:29:36 +0000
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:29:36 +0000
+Served asset /articles.js - 200 OK (3ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:29:36 +0000
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:29:36 +0000
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-05 14:30:15 +0000
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles" 
+  Rendered articles/index.html.haml within layouts/application (2.1ms)
+Compiled scaffolds.css  (63ms)  (pid 6408)
+Compiled application.css  (2ms)  (pid 6408)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets_dev/application.css?body=1" for 127.0.0.1 at 2013-03-05 14:30:15 +0000
+Served asset /application.css - 200 OK (33ms)
+
+
+Started GET "/assets_dev/articles.css?body=1" for 127.0.0.1 at 2013-03-05 14:30:15 +0000
+Served asset /articles.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.css?body=1" for 127.0.0.1 at 2013-03-05 14:30:15 +0000
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery.js?body=1" for 127.0.0.1 at 2013-03-05 14:30:15 +0000
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-05 14:30:15 +0000
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-05 14:30:15 +0000
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets_dev/articles.js?body=1" for 127.0.0.1 at 2013-03-05 14:30:15 +0000
+Served asset /articles.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/posts.js?body=1" for 127.0.0.1 at 2013-03-05 14:30:15 +0000
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets_dev/application.js?body=1" for 127.0.0.1 at 2013-03-05 14:30:15 +0000
+Served asset /application.js - 200 OK (1ms)
