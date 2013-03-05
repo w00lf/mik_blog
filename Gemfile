@@ -41,4 +41,4 @@ gem "therubyracer", :require => 'v8'
 
 # To use debugger
 # gem 'debugger'
-gem 'unicorn'
+gem 'unicorn', '4.6.0'
